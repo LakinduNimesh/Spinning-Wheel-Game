@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>#14 Spinning Wheel @Lakinim</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 align="center">Spinning Wheel</h1>
+    <div class="container">
+      <canvas id="wheel"></canvas>
+      <button id="spin-btn">Spin</button>
+      <?xml version="1.0" encoding="utf-8"?>
+      <svg id="Layer_1" data-name="Layer 1" width="65" height="65" viewBox="0 0 65 65"
+        xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+        <defs>
+          <style>
+            .cls-1 {
+              fill: url(#linear-gradient);
+            }
+          </style>
+          <linearGradient id="gradient-0" bx:pinned="true">
+            <stop offset="0" style="stop-color: rgb(175, 137, 76);" />
+            <stop offset="1" style="stop-color: rgb(94, 73, 27);" />
+          </linearGradient>
+          <linearGradient id="gradient-1" bx:pinned="true">
+            <stop offset="0.48" style="stop-color: rgb(94, 67, 27);" />
+          </linearGradient>
+          <linearGradient id="color-0" gradientUnits="userSpaceOnUse" bx:pinned="true">
+            <stop style="stop-color: rgb(175, 150, 76);" />
+          </linearGradient>
+        </defs>
+        <path class="cls-1"
+          d="M2.39,28.37,60.27,3.29a2.93,2.93,0,0,1,3.84,3.89L53.33,31.25a2.94,2.94,0,0,0,0,2.29l9.86,24.38a2.93,2.93,0,0,1-4,3.73l-56.88-28A2.93,2.93,0,0,1,2.39,28.37Z"
+          style="fill: rgb(125, 66, 41);" />
+      </svg>
+    </div>
+    <div id="final-value">
+      <p>Click on spin button to start</p>
+    </div>
+  </div>
+
+
+
+  <!-- Chart JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <!-- Chart JS Plugin for displaying text over chart -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
