@@ -4,6 +4,10 @@
 
 The Spinning Wheel Game is a web-based interactive game where users can spin a wheel and receive a random result. The wheel is implemented using HTML5, CSS, and JavaScript, with Chart.js used to create the pie chart for the wheel. The project also incorporates a spinning animation and a user-friendly interface.
 
+
+![image](https://github.com/LakinduNimesh/Spinning-Wheel-Game/assets/149768006/2181c1ce-0ed9-4335-8641-3cbb76ad7832)
+
+
 ## Features
 
 - **Interactive Wheel**: A spinning wheel that provides a random value on each spin.
@@ -11,7 +15,6 @@ The Spinning Wheel Game is a web-based interactive game where users can spin a w
 - **Animation**: Smooth spinning animation using JavaScript.
 - **User Interface**: Clean and simple UI with a spin button and a display area for the result.
 
-![image](https://github.com/LakinduNimesh/Spinning-Wheel-Game/assets/149768006/2181c1ce-0ed9-4335-8641-3cbb76ad7832)
 
 
 ## Getting Started
